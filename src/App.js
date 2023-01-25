@@ -2,7 +2,7 @@ import {useState} from 'react';
 import { Form } from "./components/Forms";
 import { Todos } from "./components/Todo";
 import {useDispatch, useSelector} from 'react-redux';
-import {deleteAll} from './redux/todoapp/actions';
+import {deleteAll} from './redux/userSapp/actions';
 
 function App() {
   const dispatch = useDispatch();
